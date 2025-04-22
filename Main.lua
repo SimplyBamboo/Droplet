@@ -5,5 +5,5 @@ if not import then
     return
 end
 
-import('/UI/Lib.lua')
-import('/UI/.SetuupUI.lua')
+
+import('/UI/UISetup.lua')
