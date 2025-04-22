@@ -1,9 +1,7 @@
 --💦Droplet
 
-if not import then
-    print("Import Is Nil")
-    return
-end
+-- Load dependencies first
+require('Loader')
 
-
+-- Now safe to use import
 import('/UI/UISetup.lua')

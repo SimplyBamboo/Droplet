@@ -1,4 +1,4 @@
-local url = "https://raw.githubusercontent.com/SimplyBamboo/Droplet/refs/heads/main/Main.lua"
+local url = "https://raw.githubusercontent.com/SimplyBamboo/Droplet/main/Main.lua"
 
 local function import(file)
     local success, result = pcall(function()
