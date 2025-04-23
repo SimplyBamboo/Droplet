@@ -1,7 +1,7 @@
---💦Droplet
+--💦Droplet | V0.1
 
--- Load dependencies first
-require('Loader')
+--=====--
+--Reps/Modules
+--=====--
+local UISetup = loadstring(game:HttpGet("https://raw.githubusercontent.com/SimplyBamboo/Droplet/main/UI/UISetup.lua"))()
 
--- Now safe to use import
-import('/UI/UISetup.lua')
